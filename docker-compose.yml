@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  php-cli:
+    image: php:7.1-cli
+    volumes:
+      - .:/usr/src/myqpp
+    working_dir: /usr/src/myqpp
